@@ -83,30 +83,23 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 static const char *colorname[] = {
-	/* 8 normal colors */
-            "#121212",
-            "#d75f5f",
-            "#87af5f",
-            "#ffaf5f",
-            "#87afd7",
-            "#8787af",
-            "#5f8787",
-            "#808080",
-	/* 8 bright colors */
-            "#404040",
-            "#EA8484",
-            "#C7F09F",
-            "#FFCC9A",
-            "#a5caef",
-            "#A6A6DE",
-            "#69b2b2",
-            "#d7d7d7",
-            "#080808",
-	[255] = 0,
-
-	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
-	"#333333",
+    /* solarized light */
+    "#eee8d5",  /*  0: black    */
+    "#dc322f",  /*  1: red      */
+    "#859900",  /*  2: green    */
+    "#b58900",  /*  3: yellow   */
+    "#268bd2",  /*  4: blue     */
+    "#d33682",  /*  5: magenta  */
+    "#2aa198",  /*  6: cyan     */
+    "#073642",  /*  7: white    */
+    "#fdf6e3",  /*  8: brblack  */
+    "#cb4b16",  /*  9: brred    */
+    "#93a1a1",  /* 10: brgreen  */
+    "#839496",  /* 11: bryellow */
+    "#657b83",  /* 12: brblue   */
+    "#6c71c4",  /* 13: brmagenta*/
+    "#586e75",  /* 14: brcyan   */
+    "#002b36",  /* 15: brwhite  */
 };
 
 /*
@@ -116,7 +109,7 @@ static const char *colorname[] = {
 unsigned int defaultfg = 12;
 unsigned int defaultbg = 8;
 static unsigned int defaultcs = 14;
-static unsigned int defaultrcs = 257;
+static unsigned int defaultrcs = 15;
 
 
 
