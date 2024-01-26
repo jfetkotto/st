@@ -93,30 +93,32 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
+/* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#4b565c",
-	"#e67e80",
-	"#a7c080",
-	"#dbbc7f",
-	"#7fbbb3",
-	"#d699b6",
-	"#83c092",
-	"#d3c6aa",
+	"#5C5F77",
+	"#D20F39",
+	"#40A02B",
+	"#DF8E1D",
+	"#1E66F5",
+	"#EA76CB",
+	"#179299",
+	"#ACB0BE",
 
 	/* 8 bright colors */
-	"#4b565c",
-	"#e67e80",
-	"#a7c080",
-	"#dbbc7f",
-	"#7fbbb3",
-	"#d699b6",
-	"#83c092",
-	"#d3c6aa",
+	"#6C6F85",
+	"#D20F39",
+	"#40A02B",
+	"#DF8E1D",
+	"#1E66F5",
+	"#EA76CB",
+	"#179299",
+	"#BCC0CC",
 
-	[256] = "#d3c6aa", /* default foreground colour */
-	[257] = "#2f383e", /* default background colour */
-	[258] = "#d3c6aa", /*575268*/
+[256] = "#4C4F69", /* default foreground colour */
+[257] = "#EFF1F5", /* default background colour */
+[258] = "#DC8A78", /*575268*/
+
 };
 
 
@@ -127,7 +129,6 @@ unsigned int defaultfg = 256;
 unsigned int defaultbg = 257;
 unsigned int defaultcs = 258;
 static unsigned int defaultrcs = 258;
-
 
 /*
  * Default shape of cursor
