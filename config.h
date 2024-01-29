@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=13:antialias=true:autohint=true";
+static char *font = "Hack Nerd Font:pixelsize=14:antialias=true:autohint=true";
 static int borderpx = 5;
 
 /*
@@ -95,28 +95,28 @@ unsigned int tabspaces = 8;
 
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#4b565c",
-	"#e67e80",
-	"#a7c080",
-	"#dbbc7f",
-	"#7fbbb3",
-	"#d699b6",
-	"#83c092",
-	"#d3c6aa",
+	"#1C1917",
+	"#DE6E7C",
+	"#819B69",
+	"#B77E64",
+	"#6099C0",
+	"#B279A7",
+	"#66A5AD",
+	"#B4BDC3",
 
 	/* 8 bright colors */
-	"#4b565c",
-	"#e67e80",
-	"#a7c080",
-	"#dbbc7f",
-	"#7fbbb3",
-	"#d699b6",
-	"#83c092",
-	"#d3c6aa",
+	"#403833",
+	"#E8838F",
+	"#8BAE68",
+	"#D68C67",
+	"#61ABDA",
+	"#CF86C1",
+	"#65B8C1",
+	"#888F94",
 
-	[256] = "#d3c6aa", /* default foreground colour */
-	[257] = "#2f383e", /* default background colour */
-	[258] = "#d3c6aa", /*575268*/
+	[256] = "#B4BDC3", /* default foreground colour */
+	[257] = "#1C1917", /* default background colour */
+	[258] = "#B4BDC3", /*575268*/
 };
 
 
