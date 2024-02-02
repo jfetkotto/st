@@ -96,28 +96,28 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#eeeeee",
-	"#af0000",
-	"#008700",
-	"#5f8700",
-	"#0087af",
-	"#878787",
-	"#005f87",
-	"#444444",
+	"#606060",
+	"#df9a98",
+	"#719672",
+	"#e0bb71",
+	"#96bbdc",
+	"#dfbdbc",
+	"#97bcbc",
+	"#d8d8d8",
 
 	/* 8 bright colors */
-	"#bcbcbc",
-	"#d70000",
-	"#d70087",
-	"#8700af",
-	"#d75f00",
-	"#d75f00",
-	"#005faf",
-	"#005f87",
+	"#757575",
+	"#e07798",
+	"#97bb98",
+	"#ffdd98",
+	"#badcfb",
+	"#ffbebc",
+	"#96ddde",
+	"#e9e9e9",
 
-[256] = "#1c1c1c", /* default foreground colour */
-[257] = "#eeeeee", /* default background colour */
-[258] = "#0087af", /*575268*/
+[256] = "#4a4a4a", /* default foreground colour */
+[257] = "#e1e1e1", /* default background colour */
+[258] = "#96bbdc", /*575268*/
 
 };
 
@@ -137,7 +137,7 @@ static unsigned int defaultrcs = 258;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 4;
+static unsigned int cursorshape = 2;
 
 /*
  * Default columns and rows numbers
